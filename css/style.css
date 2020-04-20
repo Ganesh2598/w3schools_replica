@@ -330,6 +330,9 @@
 	.items ul .seven,.six{
 		display:none;
 	}
+	.items{
+		width:900px;
+	}
 	.middle{
 		width:900px;
 	}
@@ -342,6 +345,9 @@
 @media screen and (max-width: 950px){
 	.items ul .four,.five{
 		display:none;
+	}
+	.items{
+		width:800px;
 	}
 	.middle{
 		width:800px;
@@ -363,6 +369,9 @@
 	.items ul .three{
 		display:none;
 	}
+	.items{
+		width:700px;
+	}
 	.middle{
 		width:700px;
 	}
@@ -382,6 +391,9 @@
 	}
 	.nav .logo a{
 		margin-left: 120px;
+	}
+	.items{
+		width:600px;
 	}
 	.middle{
 		width:600px;
