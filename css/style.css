@@ -336,8 +336,9 @@ h3{
 	justify-content: space-between;
 }
 
-.test1{
-	font-size: 120%;
+.test-1{
+	font-size: 15px;
+	letter-spacing: 1px;
 }
 
 .content-12 button{
