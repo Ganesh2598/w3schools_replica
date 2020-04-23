@@ -1,3 +1,9 @@
+
+
+body{
+	font-family: Verdana,sans-serif;
+}
+
 .nav{
 	width:100%;
 	height:40px;
@@ -7,26 +13,29 @@
 }
 
 .nav .logo a{
-	font-size: 35px;
+	font-size: 37px;
+	font-family: fontawesome 5;
 	text-decoration: none;
-	color:grey;
+	color:#555555;
 }
 
 .nav .logo span{
-	color: limegreen
+	color: #4CAF50
 }
 
 .nav .logo a:hover{
-	color: limegreen;
+	color: #4CAF50;
 }
 
 .nav .des{
-	font-size: 20px;
+	font-size: 15px;
+	font-family:'Segoe UI',Arial,sans-serif;
+	letter-spacing: 4px;
 	top:15px;
 }
 
 .items{
-	background: grey;
+	background: #555555;
 	width:100%;
 	height:40px;
 	position:sticky;
@@ -51,7 +60,8 @@
 .items ul li a{
 	text-decoration: none;
 	color: #fff;
-	font-size: 19px;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 18px;
 }
 
 .items ul li a:hover{
@@ -65,7 +75,7 @@
 
 .items ul li .more{
 	width:80px;
-	font-size: 20px;
+	font-size: 18px;
 	background: none;
 	border: none;
 	color: white;
@@ -73,7 +83,7 @@
 
 .items ul li .ref{
 	width:160px;
-	font-size: 20px;
+	font-size: 18px;
 	background: none;
 	border: none;
 	color: white;
@@ -81,7 +91,7 @@
 
 .items ul li .exe{
 	width:150px;
-	font-size: 20px;
+	font-size: 18px;
 	background: none;
 	border: none;
 	color: white;
@@ -93,7 +103,7 @@
 }
 
 .middle{
-	border-right: 1px solid gainsboro;
+	border-right: 1px solid #f1f1f1;
 	width: 1000px;
 }
 
@@ -107,7 +117,10 @@
 .sidebar ul li a{
 	text-decoration: none;
 	color:black;
+	opacity: 0.8;
 	width:100%;
+	font-size: 15px;
+	font-family: Verdana,sans-serif;
 }
 
 .sidebar ul li a:hover{
@@ -115,15 +128,27 @@
 	width:100%;
 }
 
+.one{
+	background:#4CAF50;
+}
+
 .sidebar{
 	width:250px;
 	height:720px;
-	background:gainsboro;
+	background:#f1f1f1;
 	overflow: scroll;
 	z-index: 2;
 	position:sticky;
 	position: sticky;
 	top:40px;
+}
+
+.heading{
+	font-size: 40px;
+}
+
+.heading-2{
+	font-size: 35px;
 }
 
 .btn-1{
@@ -136,7 +161,7 @@
 }
 .btn-1 button{
 	margin-left:0px;
-	background:limegreen;
+	background:#4CAF50;
 	border:none;
 	font-size: 18px;
 	padding:10px;
@@ -148,9 +173,9 @@
 }
 
 .content-1{
-	background: lightblue;
+	background: #d4edda;
 	padding:15px 0px 15px 15px;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 .content-2{
@@ -158,18 +183,18 @@
 }
 
 .content-2 p{
-	font-size: 20px;
+	font-size: 15px;
 }
 
 .content-3{
 	margin-left: 10px;
-	background: gainsboro;
+	background: #f1f1f1;
 	padding:15px;
 	line-height: 10px;
 }
 
 .content-3 button{
-	background: limegreen;
+	background: #4CAF50;
 	height:40px;
 	width:200px;
 	border:none;
@@ -181,9 +206,28 @@
 .example-1{
 	background: white;
 	padding: 10px;
-	border-left: 5px solid limegreen; 
+	border-left: 5px solid #4CAF50; 
 }
 
+h1{
+	font-size: 42px;
+	font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+
+h2{
+	font-size: 32px;
+	font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+
+
+
+h3{
+	font-size: 24px;
+	font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
 .content-4{
 	margin-left: 10px;
 }
@@ -198,7 +242,7 @@
 }
 
 .content-5 p,.content-6 p,.exercise-1 p,.content-8 p,.content-9 p{
-	font-size: 20px;
+	font-size: 15px;
 }
 
 .content-5 a,.exercise-1 a,.content-9 a,.content-10 p,.content-10 p a{
@@ -220,7 +264,7 @@
 }
 
 .exercise-1 .test-1{
-	background: gainsboro;
+	background: #f1f1f1;
 	padding: 10px;
 	font-size: 20px;
 }
@@ -231,7 +275,7 @@
 }
 
 .exercise-1 button{
-	background: limegreen;
+	background: #4CAF50;
 	height:40px;
 	width:200px;
 	border:none;
@@ -242,7 +286,7 @@
 
 
 .content-8 button{
-	background: royalblue;
+	background:#2196F3;
 	height:40px;
 	width:200px;
 	border:none;
@@ -262,7 +306,7 @@
 }
 
 .content-10 button{
-	background: limegreen;
+	background: #4CAF50;
 	height:40px;
 	width:250px;
 	border:none;
@@ -275,7 +319,7 @@
 	width:100px;
 	height:40px;
 	margin-left:0px;
-	background:limegreen;
+	background:#4CAF50;
 	border:none;
 	font-size: 18px;
 	padding:10px;
@@ -292,19 +336,28 @@
 	justify-content: space-between;
 }
 
+.test1{
+	font-size: 120%;
+}
+
 .content-12 button{
 	width:200px;
 	height:30px;
 	margin-left:0px;
-	background:gainsboro;
+	background:#f1f1f1;
 	border:none;
 	font-size: 15px;
 	padding:5px;
 	color: #000;
 }
 
+.content-13{
+	text-align: center;
+}
+
 .content-13 p{
-	font-size: 15px;
+	font-size: 13px;
+	opacity: 0.60;
 }
 
 .content-13 .special{
@@ -316,17 +369,17 @@
 }
 
 .content-13 .logo2{
-	margin-left: 420px;
+	text-align: center;
 }
 
-@media only screen and (max-width: 1450px){
+@media screen and (max-width: 1450px){
 	.items ul .ten,.nine,.eight{
 		display:none;
 	}
 	
 }
 
-@media only screen and (max-width: 1050px){
+@media screen and (max-width: 1050px){
 	.items ul .seven,.six{
 		display:none;
 	}
@@ -339,7 +392,7 @@
 	}
 }
 
-@media only screen and (max-width: 950px){
+@media screen and (max-width: 950px){
 	.items ul .four,.five{
 		display:none;
 	}
@@ -359,7 +412,7 @@
 	}
 }
 
-@media only screen and (max-width: 850px){
+@media screen and (max-width: 850px){
 	.items ul .three{
 		display:none;
 	}
@@ -373,7 +426,7 @@
 	}
 }
 
-@media only screen and (max-width: 750px){
+@media screen and (max-width: 750px){
 	.items ul .twelve,.thirteen{
 		display:none;
 	}
@@ -383,7 +436,6 @@
 	.nav .logo a{
 		margin-left: 120px;
 	}
-
 	.middle{
 		width:600px;
 	}
@@ -395,4 +447,8 @@
 	}
 }
 
-
+@media screen and (max-width: 700px){
+	.middle{
+		width:470px;
+	}
+}
