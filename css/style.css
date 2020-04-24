@@ -193,6 +193,14 @@ body{
 	line-height: 10px;
 }
 
+.content-3 .example-1 span{
+	color:brown;
+}
+
+.content-3 .example-1 .htmltxt{
+	color: red;
+}
+
 .content-3 button{
 	background: #4CAF50;
 	height:40px;
